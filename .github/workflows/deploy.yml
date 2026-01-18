@@ -1,32 +1,26 @@
 name: Hexo Deploy
-
 on:
   push:
     branches:
-      - main # 只有当 main 分支有提交时才触发
-
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    # 这一段极其重要，赋予 Action 推送分支的权限
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "npm"
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build Hexo
-        run: npx hexo generate
-
-      - name: Deploy to GitHub Pages
+          node-version: '20'
+          cache: 'npm'
+      - run: npm install
+      - run: npx hexo generate
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public # Hexo 默认生成的静态文件目录
-          publish_branch: gh-pages # 将静态网页推送到这个分支
+          publish_dir: ./public
+          publish_branch: gh-pages
+          
