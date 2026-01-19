@@ -11,7 +11,7 @@
 ## 技术架构
 
 * **框架**: Hexo (Node.js 环境)
-* **主题**: NexT (Pisces Scheme)
+* **主题**: Sea
 * **部署**: GitHub Actions (自动构建至 `gh-pages` 分支)
 * **静态托管**: GitHub Pages
 
@@ -24,6 +24,9 @@
 ### 1. 创作文章
 ```bash
 npx hexo new "文章标题"
+
+# 指定目录
+npx hexo new -p "./dir/文章标题"
 ```
 
 文章将生成在 source/_posts/文章标题.md

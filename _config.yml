@@ -31,7 +31,7 @@ code_dir: downloads/code
 
 new_post_name: :title.md
 default_layout: post
-post_asset_folder: true  # 开启后，新建文章会生成同名文件夹，方便放图片
+post_asset_folder: false  # 开启后，新建文章会生成同名文件夹，方便放图片
 highlight:
   enable: true
   line_number: true
