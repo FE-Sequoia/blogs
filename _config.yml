@@ -5,7 +5,7 @@ title: 默耕实验室
 subtitle: '默默耕耘，积淀岁月'
 description: '在静默中耕耘，于无声处积淀'
 keywords: 思考, 学习, 生活
-author: 默耕者
+author: 东方默耕
 language: zh-CN
 timezone: Asia/Shanghai # 建议设置具体时区避免时间显示偏差
 
@@ -55,14 +55,7 @@ pagination_dir: page
 # =========================================================
 # 扩展与插件 (精简优化)
 # =========================================================
-theme: next
-
-# 搜索配置 (NexT 专用)
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+theme: sea
 
 # hexo-neat 资源压缩 (删除冗余注释，保留核心开关)
 neat_enable: true

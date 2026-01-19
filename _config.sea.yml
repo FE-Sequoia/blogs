@@ -1,0 +1,34 @@
+# =========================================================
+# hexo-theme-sea 核心配置
+# =========================================================
+
+# 1. 导航菜单
+menu:
+  - name: 博客
+    url: /posts/
+  - name: 分类
+    url: /categories/
+  - name: 标签
+    url: /tags/
+  - name: 归档
+    url: /archives/
+
+# 3. 外观设置
+appearance:
+  dark_mode: auto         # 自动跟随系统深色模式
+  accent_color: "#2196f3" # 实验室主题色：海洋蓝
+
+# 4. 社交链接
+social:
+  github: https://github.com/fe-sequoia
+  # email: mailto:yourname@example.com
+
+# 5. 评论设置 (如果你以后要用)
+# valine:
+#   enable: false
+#   appId: 
+#   appKey: 
+
+# 6. 搜索 (Sea 通常内置简单搜索，无需额外复杂配置)
+search:
+  enable: true
