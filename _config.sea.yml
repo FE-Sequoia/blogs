@@ -4,7 +4,7 @@
 
 # 1. 导航菜单
 menu:
-  - name: 博客
+  - name: 文章
     url: /posts/
   - name: 分类
     url: /categories/
