@@ -32,3 +32,4 @@ social:
 # 6. 搜索 (Sea 通常内置简单搜索，无需额外复杂配置)
 search:
   enable: true
+  type: pagefind
