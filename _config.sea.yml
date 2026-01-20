@@ -2,6 +2,7 @@
 # hexo-theme-sea 核心配置
 # =========================================================
 
+
 # 1. 导航菜单
 menu:
   - name: 文章
@@ -13,15 +14,29 @@ menu:
   - name: 归档
     url: /archives/
 
+# 2. 首页配置
+home:
+  hero:
+    name: 默耕书房
+    intro: Hexo Theme Sea is a simple and elegant Hexo blog theme with built-in support for internationalization, light and dark modes, customizable themes, and seamless integration of comments (Waline, Giscus) and search (Algolia).
+    avatar: /blogs/images/avatar.png
+  posts: recent
+
 # 3. 外观设置
 appearance:
   dark_mode: auto         # 自动跟随系统深色模式
   accent_color: "#2196f3" # 实验室主题色：海洋蓝
 
 # 4. 社交链接
-social:
-  github: https://github.com/fe-sequoia
-  # email: mailto:yourname@example.com
+socialLink:
+  - name: Github # 名称
+    link: https://github.com/fe-sequoia # 跳转链接
+  - name: Twitter # 名称
+    link: https://github.com/fe-sequoia # 跳转链接
+  - name: Facebook # 名称
+    link: https://github.com/fe-sequoia # 跳转链接
+  - name: Instagram # 名称
+    link: https://github.com/fe-sequoia # 跳转链接
 
 # 5. 评论设置 (如果你以后要用)
 # valine:
@@ -33,3 +48,13 @@ social:
 search:
   enable: true
   type: pagefind
+
+
+favicon: /images/favicon.ico
+
+# Footer
+footer:
+  builtUpTime: 2026-01-20 13:14:00 # 建站时间
+
+# 主题色
+primaryColor: '#10b981'
