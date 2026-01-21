@@ -17,8 +17,8 @@ menu:
 # 2. 首页配置
 home:
   hero:
-    name: 默耕书房
-    intro: Hexo Theme Sea is a simple and elegant Hexo blog theme with built-in support for internationalization, light and dark modes, customizable themes, and seamless integration of comments (Waline, Giscus) and search (Algolia).
+    name: 愿景
+    intro: 拒绝成为被生活“物理格式化”的零件。这里记录我读过的书、学过的技能，以及在这台复读机一样的人生里，强行插播的个人声音。如果不给生命留下点抓痕，潮水一涨，谁还记得我们来过？
     avatar: /blogs/images/avatar.png
   posts: recent
 
