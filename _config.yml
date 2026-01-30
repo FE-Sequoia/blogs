@@ -57,21 +57,6 @@ pagination_dir: page
 # =========================================================
 theme: sea
 
-# hexo-neat 资源压缩 (删除冗余注释，保留核心开关)
-neat_enable: true
-neat_html:
-  enable: true
-neat_css:
-  enable: true
-  exclude:
-    - '**/*.min.css'
-neat_js:
-  enable: true
-  mangle: true
-  exclude:
-    - '**/*.min.js'
-    - '**/index.js'
-
 # =========================================================
 # 部署 (GitHub Actions 模式下此处留空即可)
 # =========================================================
